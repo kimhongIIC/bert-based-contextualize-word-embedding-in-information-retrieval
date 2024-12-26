@@ -10,6 +10,7 @@ import os
 from flask_cors import CORS 
 
 # Download NLTK data files (only needed for first-time setup)
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
